@@ -18,7 +18,7 @@ def main():
   while controller != 0:
     controller = ""
     print("1. Print Job\n2. Print All Jobs\n3. Add Job\n4. List Jobs\n5. Remove Job\n0. Exit")
-    controller = int(input())
+    controller = int(input("\nWhat would you like to do? "))
     if controller == 1:
       printer.printJob()
     elif controller == 2:
